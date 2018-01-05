@@ -194,7 +194,7 @@
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Low"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;sandeep.vesala@godigit.com&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="baJGclXn02A="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="h+qQ5TYYDdeBiOwEQIhnuw=="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
