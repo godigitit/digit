@@ -320,7 +320,7 @@
     <elementParameter field="TEXT" name="SMTP_PORT" value="465"/>
     <elementParameter field="CHECK" name="SSL" value="true"/>
     <elementParameter field="CHECK" name="STARTTLS" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
+    <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="High"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;rajeshj@gain-insights.com&quot;"/>
     <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="i9ZhecQneyhPiQ4AjMjg+w=="/>
