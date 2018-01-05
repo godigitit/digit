@@ -176,7 +176,7 @@
   </node>
   <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
-    <elementParameter field="TEXT" name="TO" value="&quot;analytics_reports@godigit.com&quot;"/>
+    <elementParameter field="TEXT" name="TO" value="&quot;sandeep.vesala@godigit.com&quot;"/>
     <elementParameter field="TEXT" name="FROM" value="&quot;sandeep.vesala@godigit.com&quot;"/>
     <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
     <elementParameter field="TEXT" name="PERSONAL_NAME" value="&quot;sender&quot;" show="false"/>
