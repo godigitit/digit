@@ -112,7 +112,7 @@
     <routinesParameter id="_XAu5UPHgEeexl9rS9Edkxw" name="TalendStringUtil"/>
     <routinesParameter id="_XA4DQPHgEeexl9rS9Edkxw" name="TalendString"/>
   </parameters>
-  <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="64">
+  <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlConnection_1" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;datadbins.cpmhro02yml1.ap-south-1.rds.amazonaws.com&quot;"/>
@@ -246,7 +246,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tPostgresqlCommit_2"/>
   </node>
-  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="224">
+  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_2" show="false"/>
     <elementParameter field="TEXT" name="TO" value="&quot;sandeep.vesala@godigit.com&quot;"/>
     <elementParameter field="TEXT" name="FROM" value="&quot;sandeep.vesala@godigit.com&quot;"/>
