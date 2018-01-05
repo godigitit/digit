@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_W7OuQfHgEeexl9rS9Edkxw" label="DB_to_Postgres" description="" language="java" technicalLabel="DB_TO_POSTGRES" creationDate="2018-01-05T11:45:54.128+0530" author="_W7OuQvHgEeexl9rS9Edkxw" productVersion="Talend Data Management Platform-6.4.1.20171117_1105-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/godigitit/digit.git&quot;,&quot;login&quot;:&quot;sandeep.vesala@godigit.com&quot;,&quot;passwd&quot;:&quot;/h7g6K8pxbJgHRodGnhb1Q==&quot;,&quot;settings&quot;:&quot;001&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false"/>
+  <TalendProperties:User xmi:id="_W7OuQvHgEeexl9rS9Edkxw" login="sandeep.vesala@godigit.com" firstName="sandeep" lastName="vesala" type="DQ" additionnalData="{}"/>
+</xmi:XMI>
