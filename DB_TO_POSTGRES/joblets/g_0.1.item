@@ -1,7 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore">
-  <model:JobletProcess>
+  <model:JobletProcess defaultContext="Default" jobType="Standard">
+    <context confirmationNeeded="false" name="Default"/>
     <parameters>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="64" show="false"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+      <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+      <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false" show="false"/>
+      <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000" show="false"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true"/>
+      <elementParameter field="ICON_SELECTION" name="ICONSELECTION" value=""/>
+      <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false" show="false"/>
+      <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+      <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+      <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;/home/tal_user/tal_install_prod/workspace/in.csv&quot;" show="false"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="ORACLE_11" show="false"/>
+      <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+      <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+      <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+      <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_INFO" value="true" show="false"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+      <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+      <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+      <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+      <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+      <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+      <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+      <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+      <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
       <routinesParameter id="_XA54cPHgEeexl9rS9Edkxw" name="DQTechnical"/>
       <routinesParameter id="_XBKXIPHgEeexl9rS9Edkxw" name="DataMasking"/>
       <routinesParameter id="_XAsdEPHgEeexl9rS9Edkxw" name="DataOperation"/>
@@ -18,6 +79,209 @@
       <routinesParameter id="_XAu5UPHgEeexl9rS9Edkxw" name="TalendStringUtil"/>
       <routinesParameter id="_XA4DQPHgEeexl9rS9Edkxw" name="TalendString"/>
     </parameters>
+    <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="64">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlOutput_1" show="false"/>
+      <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+      <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+      <elementParameter field="TEXT" name="HOST" value="&quot;datadbins.cpmhro02yml1.ap-south-1.rds.amazonaws.com&quot;"/>
+      <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
+      <elementParameter field="TEXT" name="DBNAME" value="&quot;repos&quot;"/>
+      <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;abs&quot;"/>
+      <elementParameter field="TEXT" name="USER" value="&quot;dbmaster&quot;"/>
+      <elementParameter field="PASSWORD" name="PASS" value="mjSaaHxuX88kxdqOrByaIg=="/>
+      <elementParameter field="DBTABLE" name="TABLE" value="&quot;TKUNDENKONTO&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+      <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+      <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="SPATIAL_INDEX" value="false" show="false"/>
+      <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" value="false" show="false"/>
+      <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+      <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+      <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+      <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+      <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+      <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+      <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+      <elementParameter field="TABLE" name="ADD_COLS"/>
+      <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+      <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+        <elementValue elementRef="SCHEMA_COLUMN" value="KK_"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="FIRMA"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="DION"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KKONTONR"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SALDO"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="SCHLDATUM"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="USERID"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="FREMDWAEHRUNG"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KZ_KKABRECHNUNG"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KZAUSGLKONK"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="ANSTALTSNR"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="ADR_"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="INK_BK_"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="INK_ADR_"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KKBEZ"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KKART"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="KKKBEZ"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+      <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+      <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+      <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tPostgresqlOutput_1">
+        <column comment="" key="true" length="36" name="KK_" nullable="false" originalDbColumnName="KK#" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="2" name="FIRMA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="2" name="DION" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="8" name="KKONTONR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="11" name="SALDO" nullable="false" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="10" name="SCHLDATUM" nullable="false" pattern="" precision="0" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="8" name="USERID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="FREMDWAEHRUNG" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="KZ_KKABRECHNUNG" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="KZAUSGLKONK" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="ANSTALTSNR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="36" name="ADR_" nullable="false" originalDbColumnName="ADR#" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="36" name="INK_BK_" nullable="true" originalDbColumnName="INK_BK#" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="36" name="INK_ADR_" nullable="true" originalDbColumnName="INK_ADR#" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="65" name="KKBEZ" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="1" name="KKART" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="12" name="KKKBEZ" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <additionalProperties key="Comment" value=""/>
+      </metadata>
+      <metadata connector="REJECT" name="REJECT">
+        <column comment="" key="true" length="36" name="KK_" nullable="false" originalDbColumnName="KK#" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="2" name="FIRMA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="2" name="DION" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="8" name="KKONTONR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="11" name="SALDO" nullable="false" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="10" name="SCHLDATUM" nullable="false" pattern="" precision="0" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="8" name="USERID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="FREMDWAEHRUNG" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="KZ_KKABRECHNUNG" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="KZAUSGLKONK" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="ANSTALTSNR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="36" name="ADR_" nullable="false" originalDbColumnName="ADR#" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="36" name="INK_BK_" nullable="true" originalDbColumnName="INK_BK#" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="36" name="INK_ADR_" nullable="true" originalDbColumnName="INK_ADR#" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="65" name="KKBEZ" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="1" name="KKART" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="12" name="KKKBEZ" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <additionalProperties key="Comment" value=""/>
+      </metadata>
+    </node>
+    <connection connectorName="FLOW" label="row11" lineStyle="0" metaname="INPUT_1" offsetLabelX="0" offsetLabelY="0" source="INPUT_1" target="tPostgresqlOutput_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row11" show="false"/>
+    </connection>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="INPUT_1" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <jobletNodes componentName="INPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="-32" posY="64" input="true">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="INPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+      <elementParameter field="CHECK" name="START" value="true" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+      <metadata connector="FLOW" name="INPUT_1">
+        <column comment="" key="true" length="36" name="KK_" nullable="false" originalDbColumnName="KK#" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="2" name="FIRMA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="2" name="DION" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="8" name="KKONTONR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="11" name="SALDO" nullable="false" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="10" name="SCHLDATUM" nullable="false" pattern="" precision="0" sourceType="TIMESTAMP" type="id_Date" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="8" name="USERID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="FREMDWAEHRUNG" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="KZ_KKABRECHNUNG" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="KZAUSGLKONK" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="ANSTALTSNR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="36" name="ADR_" nullable="false" originalDbColumnName="ADR#" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="36" name="INK_BK_" nullable="true" originalDbColumnName="INK_BK#" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="36" name="INK_ADR_" nullable="true" originalDbColumnName="INK_ADR#" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="65" name="KKBEZ" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="1" name="KKART" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column comment="" defaultValue="" key="false" length="12" name="KKKBEZ" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <additionalProperties key="Comment" value=""/>
+      </metadata>
+    </jobletNodes>
   </model:JobletProcess>
   <TalendProperties:ByteArray/>
 </xmi:XMI>
