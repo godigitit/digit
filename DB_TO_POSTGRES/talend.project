@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_W7OuQfHgEeexl9rS9Edkxw" label="DB_to_Postgres" description="" language="java" technicalLabel="DB_TO_POSTGRES" creationDate="2018-01-05T11:45:54.128+0530" author="_W7OuQvHgEeexl9rS9Edkxw" productVersion="Talend Data Management Platform-6.4.1.20171117_1105-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/godigitit/digit.git&quot;,&quot;login&quot;:&quot;sandeep.vesala@godigit.com&quot;,&quot;passwd&quot;:&quot;/h7g6K8pxbJgHRodGnhb1Q==&quot;,&quot;settings&quot;:&quot;001&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false">
+  <TalendProperties:Project xmi:id="_W7OuQfHgEeexl9rS9Edkxw" label="DB_to_Postgres" description="" language="java" technicalLabel="DB_TO_POSTGRES" creationDate="2018-01-05T11:45:54.128+0530" author="_W7OuQvHgEeexl9rS9Edkxw" productVersion="Talend Data Management Platform-6.4.1.20171117_1105-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/godigitit/digit.git&quot;,&quot;login&quot;:&quot;sandeep.vesala@godigit.com&quot;,&quot;passwd&quot;:&quot;/h7g6K8pxbJgHRodGnhb1Q==&quot;,&quot;settings&quot;:&quot;001&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <technicalStatus xmi:id="_W-xKcPHgEeexl9rS9Edkxw" label="development" code="DEV"/>
+    <technicalStatus xmi:id="_W-xKcfHgEeexl9rS9Edkxw" label="testing" code="TEST"/>
+    <technicalStatus xmi:id="_W-xKcvHgEeexl9rS9Edkxw" label="production" code="PROD"/>
+    <documentationStatus xmi:id="_W-v8UPHgEeexl9rS9Edkxw" label="unchecked" code="UCK"/>
+    <documentationStatus xmi:id="_W-v8UfHgEeexl9rS9Edkxw" label="checked" code="CHK"/>
+    <documentationStatus xmi:id="_W-v8UvHgEeexl9rS9Edkxw" label="validated" code="VAL"/>
     <migrationTask xmi:id="_W-W6wPHgEeexl9rS9Edkxw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_W-W6wfHgEeexl9rS9Edkxw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_W-W6wvHgEeexl9rS9Edkxw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -20,4 +26,7 @@
     <migrationTask xmi:id="_W-Xh1fHgEeexl9rS9Edkxw" id="org.talend.repository.model.migration.AddJavaVersionMigrationTask" breaks="6.3.1" version="6.4.0" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_W7OuQvHgEeexl9rS9Edkxw" login="sandeep.vesala@godigit.com" firstName="sandeep" lastName="vesala" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_W-zmsPHgEeexl9rS9Edkxw" login="analytics_reports@godigit.com" firstName="go" lastName="digit" type="DQ" additionnalData="{}">
+    <projectAuthorization href="../home/tal_user/tal_install_prod/studio/#/"/>
+  </TalendProperties:User>
 </xmi:XMI>
