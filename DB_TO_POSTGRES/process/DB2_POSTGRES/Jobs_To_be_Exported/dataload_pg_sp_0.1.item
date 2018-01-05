@@ -193,7 +193,7 @@
     <elementParameter field="CHECK" name="STARTTLS" value="false"/>
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Low"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
-    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;sandeeop.vesala@godigit.com&quot;"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;sandeep.vesala@godigit.com&quot;"/>
     <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="baJGclXn02A="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
