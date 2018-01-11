@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="output" prompt="output?" promptNeeded="false" repositoryContextId="_E5sNgPaYEeeQ4qnpSpI7bQ" type="id_String" value="&quot;/home/tal_user/tal_install_prod&quot;"/>
-    <contextParameter comment="" name="input" prompt="input?" promptNeeded="false" repositoryContextId="_aebAoPagEee4AZ6A4cLvaw" type="id_String" value="&quot;/home/admin/Desktop&quot;"/>
+    <contextParameter comment="" name="output" prompt="output?" promptNeeded="false" repositoryContextId="_E5sNgPaYEeeQ4qnpSpI7bQ" type="id_String" value="&quot;/home/tal_user/tal_install_prod/&quot;"/>
+    <contextParameter comment="" name="input" prompt="input?" promptNeeded="false" repositoryContextId="_aebAoPagEee4AZ6A4cLvaw" type="id_String" value="&quot;/home/admin/Desktop/&quot;"/>
   </context>
   <parameters>
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" value="true" show="false"/>
