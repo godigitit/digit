@@ -133,7 +133,7 @@
     <elementParameter field="CHECK" name="EVENTS_TYPE_DELETE" value="true"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="KEEP_CDC_DATAS" value="false"/>
+    <elementParameter field="CHECK" name="KEEP_CDC_DATAS" value="true"/>
     <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
     <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
