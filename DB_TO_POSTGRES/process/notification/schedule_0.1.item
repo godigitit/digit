@@ -2,7 +2,7 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="data" prompt="data?" promptNeeded="false" repositoryContextId="_KF63QPaXEeeQ4qnpSpI7bQ" type="id_File" value="/home/admin/Desktop/DATA.txt"/>
-    <contextParameter comment="" name="output" prompt="output?" promptNeeded="false" repositoryContextId="_E5sNgPaYEeeQ4qnpSpI7bQ" type="id_File" value="/home/tal_user/tal_install_prod/workspace/lastest1.xlsx"/>
+    <contextParameter comment="" name="output" prompt="output?" promptNeeded="false" repositoryContextId="_E5sNgPaYEeeQ4qnpSpI7bQ" type="id_File" value="/home/tal_user/tal_install_prod/workspace/lastest7.xlsx"/>
   </context>
   <parameters>
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" value="true" show="false"/>
