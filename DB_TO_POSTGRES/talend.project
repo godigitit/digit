@@ -742,4 +742,5 @@
   <TalendProperties:User xmi:id="_W7OuQvHgEeexl9rS9Edkxw" login="sandeep.vesala@godigit.com" firstName="sandeep" lastName="vesala" type="DQ" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_W-zmsPHgEeexl9rS9Edkxw" login="analytics_reports@godigit.com" firstName="go" lastName="digit" type="DQ" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_Y1k1cPJsEeehLNYdxjrjzg" login="Trigger-Runner" type="DQ"/>
+  <TalendProperties:User xmi:id="_ipUiQPdgEeehAf-bK4fORA" login="analytics@godigit.com" firstName="security" lastName="security" type="DQ" additionnalData="{}"/>
 </xmi:XMI>
