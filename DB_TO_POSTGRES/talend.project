@@ -402,6 +402,7 @@
       <relatedItems xmi:id="_Um3TQPanEeeu1ZkFJjGIUA" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Um3TQfanEeeu1ZkFJjGIUA" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Um3TQvanEeeu1ZkFJjGIUA" id="_S_9JcPBJEeeD66qRLMMiVw - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_oVhugPp-EeeVCb4B6f8aqQ" id="_-qYtIPp9EeeVCb4B6f8aqQ" version="Latest" type="context"/>
     </ItemsRelations>
     <migrationTask xmi:id="_W-W6wPHgEeexl9rS9Edkxw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_W-W6wfHgEeexl9rS9Edkxw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
