@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="To" prompt="To?" promptNeeded="false" repositoryContextId="_-qYtIPp9EeeVCb4B6f8aqQ" type="id_String" value="&quot;rajesh.cse12@gmail.com&quot;"/>
-    <contextParameter comment="" name="From" prompt="From?" promptNeeded="false" repositoryContextId="_-qYtIPp9EeeVCb4B6f8aqQ" type="id_String" value="&quot;rajesh.cse12@gmail.com&quot;"/>
-    <contextParameter comment="" name="Cc" prompt="Cc?" promptNeeded="false" repositoryContextId="_-qYtIPp9EeeVCb4B6f8aqQ" type="id_String" value="&quot;rajesh.cse12@gmail.com&quot;"/>
+    <contextParameter comment="" name="To" prompt="To?" promptNeeded="false" repositoryContextId="_-qYtIPp9EeeVCb4B6f8aqQ" type="id_String" value="&quot;rajeshj@gain-insights.com&quot;"/>
+    <contextParameter comment="" name="From" prompt="From?" promptNeeded="false" repositoryContextId="_-qYtIPp9EeeVCb4B6f8aqQ" type="id_String" value="&quot;rajeshj@gain-insights.com&quot;"/>
+    <contextParameter comment="" name="Cc" prompt="Cc?" promptNeeded="false" repositoryContextId="_-qYtIPp9EeeVCb4B6f8aqQ" type="id_String" value="&quot;rajeshj@gain-insights.com&quot;"/>
     <contextParameter comment="" name="SMTP_host" prompt="SMTP_host?" promptNeeded="false" repositoryContextId="_-qYtIPp9EeeVCb4B6f8aqQ" type="id_String" value="&quot;smtp.gmail.com&quot;"/>
     <contextParameter comment="" name="SMTP_port" prompt="SMTP_port?" promptNeeded="false" repositoryContextId="_-qYtIPp9EeeVCb4B6f8aqQ" type="id_Integer" value="465"/>
-    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_-qYtIPp9EeeVCb4B6f8aqQ" type="id_String" value="&quot;rajesh.cse12@gmail.com&quot;"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_-qYtIPp9EeeVCb4B6f8aqQ" type="id_String" value="&quot;rajeshj@gain-insights.com&quot;"/>
     <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_-qYtIPp9EeeVCb4B6f8aqQ" type="id_Password" value="LRZj7eeM3j3NNC5NI/makg=="/>
   </context>
   <parameters>
