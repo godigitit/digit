@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_aevJsPagEee4AZ6A4cLvaw" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_aevwwPagEee4AZ6A4cLvaw" comment="" name="input" prompt="input?" promptNeeded="false" type="id_String" value="&quot;/home/admin/Desktop/&quot;"/>
-</talendfile:ContextType>
